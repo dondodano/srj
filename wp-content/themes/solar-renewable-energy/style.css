@@ -1,0 +1,227 @@
+/*
+Theme Name: Solar Renewable Energy
+Theme URI: https://www.ovationthemes.com/wordpress/free-solar-energy-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Solar Renewable Energy is a theme for everyone who is a field of eco, ecology, energy, environment, environmental, green, health, natural, non-profit, organic, recycling, renewable energy, solar, wind. This is a best theme with multipurpose use. Also, the features of this theme is amazing. Environmental and organic websites are most suitable. Eco-Friendly power services, Environment friendly & protection agencies can showcase their products and services. Thru the social media icons users can show the world their products. Solar Renewable Energy has customization option were users can change colors of the background or enable/disable sections according to users demand. The theme also has color pallet of bright and dark colors suitable for your taste and brand. Make your solar farm websites and other related sites best with this theme. Solar Renewable Energy is multipurpose and multilingual theme ideal for foreign clients.
+Version: 1.1
+Requires PHP: 7.2
+Tested up to: 6.1
+Requires at least: 5.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: solar-renewable-energy
+Template: organic-farm
+Tags: one-column, two-columns, right-sidebar, left-sidebar, grid-layout, full-width-template, sticky-post, block-styles, custom-colors, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, threaded-comments, wide-blocks, food-and-drink, portfolio, e-commerce
+
+Solar Renewable Energy WordPress Theme, Copyright 2023 pewilliams
+Solar Renewable Energy is distributed under the terms of the GNU GPL
+
+Solar Renewable Energy WordPress Theme is child theme of Organic Farm WordPress Theme, Copyright 2023 pewilliams
+Organic Farm WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+}
+
+span.entry-author a,.comment-author a,.product_meta a {
+    text-decoration: underline;
+}
+
+button, input[type="button"], input[type="submit"],a.more-link,.prev.page-numbers, .next.page-numbers,.page-numbers.current,.gb_nav_menu ul ul,nav.woocommerce-MyAccount-navigation ul li,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.home-btn a,#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,.site-footer .search-form .search-submit,button.search-submit,.wp-block-button .wp-block-button__link,.toggle-menu button,#slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover,.ico-border::after, .ico-border::before,.quote-btn,#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon{
+    background:#70bf4a;
+}
+
+a,#Category-section .postbox.smallpostimage:hover h3 a,#sidebar select,.ico-border i,.gb_nav_menu ul li a:active,.info-box i,.site-footer .widget-area a:hover,#sidebar th,#sidebar td,#sidebar caption,a:hover, a:active {
+    color: #70bf4a;
+}
+
+.sticky,.wp-block-quote:not(.is-large):not(.is-style-large), blockquote,.wp-block-quote:not(.is-large):not(.is-style-large) {
+    border-color: #70bf4a;
+}
+
+.header-top,.site-info {
+    background: #222222;
+}
+
+.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: #70bf4a !important;
+}
+button:hover, input[type="button"]:hover, input[type="submit"]:hover, a.more-link:hover, .prev.page-numbers:hover, .next.page-numbers:hover, .page-numbers.current:hover, nav.woocommerce-MyAccount-navigation ul li:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .home-btn a:hover, #sidebar .tagcloud a:hover:hover, .site-footer .tagcloud a:hover, .site-footer .search-form .search-submit:hover, button.search-submit:hover, .wp-block-button .wp-block-button__link:hover, .toggle-menu button:hover, #slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover, .ico-border::after, .ico-border::before{
+    background: #222222;
+}
+
+h1, h2, h3, h4, h5, h6,#Category-section h3 a,#sidebar h3,.comment-body,.gb_nav_menu ul li a:hover {
+    color: #222222;
+}
+
+.gb_nav_menu ul ul a:hover{
+    background: #fff;
+    color: #70bf4a !important;
+}
+.gb_nav_menu ul li a{
+    letter-spacing: 0;
+    font-weight: 600;
+}
+#slider .carousel-caption {
+    text-align: left;
+    right: 50%;
+}
+
+/* --------- Slider --------- */
+
+#slider{
+    background: #222222;
+    position: relative;
+}
+#slider .carousel-caption h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+}
+#slider .carousel-control-next, #slider .carousel-control-prev{
+    width: 15%;
+}
+#slider img{
+    opacity: 0.5;
+}
+.copyright {
+    background: #131313;
+}
+
+/* --------- Category --------- */
+
+.cat-box {
+    background: #f3f7fe;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #e4e4e4;
+}
+.cat-img img {
+    border-radius: 10px 0 0 10px;
+}
+.cat-content h4 {
+    font-size: 20px;
+}
+.cat-content a {
+    font-size: 15px;
+    font-weight: 700;
+}
+#home-mission h3 {
+    font-size: 35px;
+    width: 50%;
+    margin: 0 auto;
+    color: #70bf4a;
+}
+
+.site-info{
+    color: #fff;
+}
+
+/* --------- loader --------- */
+
+.load :first-child{
+    background: #222222;
+    animation-delay:-1.5s;
+}
+.load :nth-child(2){
+    background:#70bf4a;
+    animation-delay:-1s;
+}
+.load :nth-child(3){
+    background:#222222;
+    animation-delay:-0.5s;
+}
+.load :last-child{
+    background:#70bf4a;
+}
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    border: 1px solid #323232;
+    padding: 2px;
+}
+
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 800px){
+    .gb_nav_menu ul ul{
+        background: transparent;
+    }
+    #slider .carousel-caption {
+        right: 14%;
+        left: 14%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .toggle-menu button {
+        padding: 9px 20px;
+        background: #222222;
+    }
+    #slider .carousel-caption h2 {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:425px){
+    #slider .carousel-caption p,#slider .carousel-control-next, #slider .carousel-control-prev{
+        display: none;
+    }
+    #slider .carousel-caption h2 {
+        font-size: 16px;
+    }
+    #home-mission h3{
+        width: 100%;
+    }
+    .cat-img img {
+        border-radius: 0;
+    }
+    .cat-content {
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 1000px){
+    #slider .carousel-caption {
+        right: 20%;
+        left: 20%;
+        top: 55%;
+    }
+}
